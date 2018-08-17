@@ -39,3 +39,13 @@ console.log(factorial(10));
 console.log(factorial(0));
 
 
+// Question 3: Kebab-case to snake
+console.log("Question 3")
+function kebabToSnake(string){
+  var newString = string.replace(/-/g , "_");
+  return newString;
+}
+
+console.log(kebabToSnake("hello-world"));
+console.log(kebabToSnake("dogs-are-awesome"));
+console.log(kebabToSnake("blah"));
