@@ -1,6 +1,5 @@
 // Question 1 :
-console.log("printReverse")
-
+console.log("printReverse");
 var numerics = ([1,2,3,4]);
 var alphabet = (["a","b","c","d"]);
 
@@ -42,4 +41,19 @@ console.log(arrayMax([1,2,3]));
 console.log(arrayMax([10,3,10,4]));
 console.log(arrayMax([-5,100]));
 
+// Question 4
+console.log("is the array uniform?");
+function isUniform(arr){
+  var first = arr[0];
+  for(var i = 1; i < arr.length;i++){
+    if (arr[i] !== first){
+      return false
+    }
+  }
+  return true;
+}
 
+console.log(isUniform([1,1,1,1]));
+console.log(isUniform([2,1,1,1]));
+console.log(isUniform(["a","b","c"]));
+console.log(isUniform(["b","b","b"]));
