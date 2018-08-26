@@ -1,3 +1,13 @@
 .winner {
   color:green;
 }
+
+body {
+  /*important to note that "source" should always appear in the URL*/
+
+  background: url(https://source.unsplash.com/fOURxD4zVDA);
+  background-size: cover;
+  background-position: center;
+  color: white;
+
+}
