@@ -1,4 +1,4 @@
 # jsShowcase
 
-![](jsShowcase/Screen Shot 2018-08-29 at 4.38.32 PM.png)
+![](jsShowcase/Screen%20Shot%202018-08-29%20at%204.38.32%20PM.png)
    
